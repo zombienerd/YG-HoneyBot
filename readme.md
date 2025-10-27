@@ -6,7 +6,7 @@ A discord bot for banning anyone who types in a specified channel, deleted 7 day
 
 Get a discord bot token.  Make sure it has admin rights for invites.  Enable all Privileged intents Server Member & Message Content on the Bot tab. 
 
-Paste bot token in .env.  Keep the quotes.
+Paste bot token in .env. 
 
 Ensure your server has node.js and discord.js installed. 
 
