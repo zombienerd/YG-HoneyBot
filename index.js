@@ -155,7 +155,7 @@ async function sendBanLog(message, reason) {
   if (!logChannel || !logChannel.isTextBased()) return;
 
   const embed = new EmbedBuilder()
-    .setTitle('🚫 Auto Ban (Trap Channel)')
+    .setTitle('🚫 THE COMMODORE FEEDS: Auto Ban (Trap Channel)')
     .setTimestamp(new Date())
     .addFields(
       { name: 'User', value: `${message.author.tag} (<@${message.author.id}>)`, inline: false },
@@ -207,7 +207,7 @@ client.on(Events.MessageCreate, async (message) => {
     // Log the ban (if configured)
     await sendBanLog(message, reason);
 
-    console.log(`Banned ${message.author.tag} from ${message.guild.name} for posting in trap channel.`);
+    console.log(`THE COMMODORE FEEDS: Banned ${message.author.tag} from ${message.guild.name} for posting in trap channel.`);
 
   } catch (err) {
     console.error('Error in MessageCreate handler:', err);
