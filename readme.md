@@ -12,6 +12,7 @@ Copy your Server ID, and Honepot channel ID, and Log ID, and paste them to repla
 
 Ensure your server has node.js and discord.js installed. 
 
+Run: npm install
 Start with: node index.js
 
 
