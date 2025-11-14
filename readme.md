@@ -2,7 +2,7 @@ YG HoneyBot
 
 CC-BY-SA-3.0 License.  You may do as you wish with this code as long as you attribute it if you reupload in a publicly accessible location.
 
-A discord bot for banning anyone who types in a specified channel, deleted 7 days of message history, and logging it to a 2nd channel.  This should not ban administrators or moderators that have banning ability.  
+Discord Honeypot Bot. A discord bot for banning anyone who types in a specified channel, deleted 7 days of message history, and logging it to a 2nd channel.  This should not ban administrators or moderators that have banning ability.  
 
 Get a discord bot token.  Make sure it has admin rights for invites.  Enable all Privileged intents Server Member & Message Content on the Bot tab. 
 
